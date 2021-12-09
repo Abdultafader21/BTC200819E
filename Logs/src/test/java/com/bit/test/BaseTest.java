@@ -10,6 +10,7 @@ public class BaseTest {
 	Logger log = Logger.getLogger(BaseTest.class);
 	@Before
 	public void start() {
+		
 		DOMConfigurator.configure("log4j.xml");
 	}
 	@Test
@@ -21,5 +22,11 @@ public class BaseTest {
 		log.debug("this is debug");
 		log.trace("this is trace");
 	}
-
+	//legacy class
+	//1.vector 
+	//2.Stack
+	//3. hashTable
+	//4. Properties
+	//5. Dictionary
+	//6. Enamuration
 }
